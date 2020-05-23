@@ -1,0 +1,27 @@
+/* reseta as configurações padrões */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+  background: #e6ecf0;
+  font-family: "Helvetica neue", Helvetica, Arial, sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+p {
+  margin-top: 30px;
+}
+
+ul {
+  margin-top: 30px;
+}
+
+li {
+  list-style: none;
+  font-weight: bold;
+}

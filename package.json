@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package": "asar pack SimpleWebView-linux-x64/resources/app SimpleWebView-linux-x64/resources/app.asar",
+    "build": "electron-packager . SimpleWebView && cp icon.icns SimpleWebView-linux-x64/resources/electron.icns"
   },
   "repository": "https://github.com/zexmandev/simple-webview.git",
   "author": "zexman <zexman@outlook.com.br>",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^9.0.0"
+    "asar": "^3.0.3",
+    "electron": "^9.0.0",
+    "electron-packager": "^14.2.1"
   },
   "dependencies": {}
 }

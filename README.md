@@ -1,16 +1,39 @@
 # simple-webview
 
+(https://img.shields.io/twitter/follow/zexmanbr?label=follow%20%40zexman&style=social)
+
 ![project image](sample.png)
 
-Esse projeto cria um pequenino navegador que fica sempre no topo da janela do seu navegado.
-Ele e útil para desenvolvedores web que pode observar o resultado do seu trabalho em uma janela sobre a janel do seu editor de códigos.
+> A little aways on top browser screen.
 
-Esse projeto foi inspirado pelo code drops da rocketseat apresentado por [Mike Brito Git hub](https://github.com/maykbrito) Mike brito, que você pode conferir aqui [Code Drops video](https://www.youtube.com/watch?v=zy-B9d2ZVrw) e também por esse conteúdo: (https://ourcodeworld.com/articles/read/536/how-to-send-information-from-one-window-to-another-in-electron-framework) que me ajudou a fazer comunicação entre as janelas.
+This project was inspired by [Mike Brito](https://github.com/maykbrito) [youtube video](https://www.youtube.com/watch?v=zy-B9d2ZVrw) and [ourcodeworld](https://ourcodeworld.com/articles/read/536/how-to-send-information-from-one-window-to-another-in-electron-framework).
+
+## :house_with_garden: [Homepage](https://github.com/zexmandev/simple-webview#readme)
+
+## :construction: Install
+
+```terminal
+yarn install
+```
+
+## :fire: usage
+
+```terminal
+yarn start
+```
 
 ## Built With
 
-- [Electron](https://www.electronjs.org/) - Electron
+---
 
-## Authors
+- [Electron](https://www.electronjs.org/) - Build cross-platform desktop apps with JavaScript, HTML, and CSS
+
+---
+
+## :bust_in_silhouette: Authors
 
 - **Zexman**
+
+## support
+
+## give a :star: if this project helped you!

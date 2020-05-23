@@ -1,6 +1,6 @@
 # simple-webview
 
-!(https://img.shields.io/twitter/follow/zexmanbr?label=follow%20%40zexman&style=social)
+![](https://img.shields.io/twitter/follow/zexmanbr?label=follow%20%40zexman&style=social)
 
 ![project image](sample.png)
 

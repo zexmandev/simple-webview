@@ -4,10 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      input {
+        width: 230px;
+      }
+    </style>
   </head>
   <body>
     <form action="" method="post">
-      <input type="text" id="inputURL" />
+      <input
+        type="text"
+        id="inputURL"
+        value="https://"
+        autofocus
+        onfocus="this.setSelectionRange(this.value.length,this.value.length);"
+      />
       <button id="buttonGo">Ir</button>
     </form>
     <script>

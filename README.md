@@ -41,4 +41,4 @@ yarn start
 
 ## support
 
-## give a :star: if this project helped you!
+give a :star: if this project helped you!

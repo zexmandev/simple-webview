@@ -1,5 +1,4 @@
 const { app, BrowserWindow, globalShortcut, ipcMain } = require("electron");
-const prompt = require("electron-prompt");
 
 let win, winURL;
 

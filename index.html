@@ -15,20 +15,9 @@
     <p>Esse é um navegador que fica sempre sobre as demais janelas.</p>
     <p>Como ele é muito simples, você pode achar esses atalhos úteis:</p>
     <ul>
-      <li>Ctrl+q - fecha a janela</li>
+      <li>Ctrl+q - Fecha a janela</li>
+      <li>Ctrl+l - Para inserir um endereço</li>
+      <li>Ctrl+j - Para abrir as ferramentas de desenvolvedor</li>
     </ul>
-    <span id="label"></span>
-    <script>
-      const { ipcRenderer } = require("electron");
-
-      ipcRenderer.on("update", (event, arg) => {
-        // Update the second window label content with the data sent from
-        // the first window :) !
-        let label = document.getElementById("label");
-
-        label.innerHTML = arg.message;
-        console.log(arg.message);
-      });
-    </script>
   </body>
 </html>

@@ -30,9 +30,14 @@ yarn start
 
 ---
 
-## :bust_in_silhouette: Authors
+## :bust_in_silhouette: Author
 
 - **Zexman**
+
+* website: [zexman](http://zexman.com.br/)
+* Twitter:[@zexman](https://twitter.com/zexmanbr)
+* Github: [@zexman](https://github.com/zexmandev)
+* Likedin: [@zexman](https://www.linkedin.com/in/zexmandev/)
 
 ## support
 

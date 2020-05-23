@@ -17,5 +17,18 @@
     <ul>
       <li>Ctrl+q - fecha a janela</li>
     </ul>
+    <span id="label"></span>
+    <script>
+      const { ipcRenderer } = require("electron");
+
+      ipcRenderer.on("update", (event, arg) => {
+        // Update the second window label content with the data sent from
+        // the first window :) !
+        let label = document.getElementById("label");
+
+        label.innerHTML = arg.message;
+        console.log(arg.message);
+      });
+    </script>
   </body>
 </html>
